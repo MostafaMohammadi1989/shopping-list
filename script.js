@@ -23,7 +23,7 @@ function addListAfterClick() {
   }
 }
 
-function addListAfterKeypress() {
+function addListAfterKeypress(event) {
   if (inputLength() > 0 && event.which === 13) {
     // var li = document.createElement("li");
     // li.appendChild(document.createTextNode(input.value));
